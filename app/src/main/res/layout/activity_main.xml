@@ -23,29 +23,35 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Clickme"
+        android:onClick="btnClicked"
         android:layout_gravity="right" />
 
     <RadioGroup
         android:orientation="horizontal"
         android:gravity="center"
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/leo"
             android:text="Leo"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/mike"
             android:text="Mike"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/don"
             android:text="Don"
             android:checked="true"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/raph"
             android:text="Raph"/>
     </RadioGroup>
 
@@ -54,10 +60,11 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:id="@+id/imgView"
-        android:src="@drawable/Don"/>
+        android:src="@drawable/don"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Initial Text"/>
+        android:text="Initial Text"
+        android:id="@+id/edtxt"/>
 
 </LinearLayout>
