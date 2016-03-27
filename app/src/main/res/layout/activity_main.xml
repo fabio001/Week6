@@ -67,4 +67,5 @@
         android:text="Initial Text"
         android:id="@+id/edtxt"/>
 
+
 </LinearLayout>
